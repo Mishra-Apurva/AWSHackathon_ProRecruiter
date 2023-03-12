@@ -14,7 +14,8 @@ Select 30+ images of email examples per category to improve performance more tha
 Use AWS TextExtract to extract the email text body from images using and convert to required csv format. 5 labels { cold email, acceptance, rejection, follow up, interview acceptance } are assigned for supervised training data.
 ### 3. ML model
 AWS Comprehend CustomClassifier in multiclass mode labels emails as one of 5 classes. 10% of data is used for testing, which results in 85% model accuracy
-### 4.
+![alt text](![image](https://user-images.githubusercontent.com/99139582/224536723-e8b85a65-48b0-47ab-ba33-73c41c080953.png))
+### 4. 
 
 
 
