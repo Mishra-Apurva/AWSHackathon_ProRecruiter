@@ -1,3 +1,5 @@
+#AWS Lambda function that is triggered when a message notification is sent via Amazon SNS
+
 import json
 import boto3
 
