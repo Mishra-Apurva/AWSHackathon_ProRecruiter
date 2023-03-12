@@ -27,10 +27,11 @@ We deploy a AWS Lambda function that is triggered by SNS's email notifications. 
 ### Technical Improvements 
 - Integrate with Amazon SES or WorkMail to generalise across email clients (constraint for setup during short hackathon duration) 
 - Allow client for customisation of categories 
-### Wider industry application 
+### Wider Industry Application 
 - Students: As individuals transitioning into the workforce, organizing professional and academic emails based on context provide clarity and categorization for productivity. 
 - SME / Client-facing roles: For Start-up and SME Owners who play multiple roles and communicate with all stakeholders, organizing the channel of communication will save on time that's already short
 
-
+## Contributors
+Apurva Mishra, Kavita Sriram, Najah Ismail, and Nithya Hariharan as team InfiniteLoop.
 
 
