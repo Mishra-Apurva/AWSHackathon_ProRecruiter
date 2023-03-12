@@ -8,7 +8,7 @@ Emails inform upcoming tasks to-do, but existing email filters do not classify b
 Batching similar tasks together saves time and reduces stress, much like an operating system reduces context switch overhead. As recruiters receive few standard formats of emails from applicants, what makes sense is an automated email classifier that leverages NLP to offload organisation work. 
 
 ## Implementation
-![image](https://user-images.githubusercontent.com/99139582/224539247-5c275f47-c3ac-4a5b-a5f5-459c5331fc67.png)
+![image](https://user-images.githubusercontent.com/99139582/224540050-aebaec28-3d8e-4902-8ea5-a12d0054d9e9.png)
 
 ### 1. Web-scraping to create dataset
 Select 30+ images of email examples per category to improve performance more than the minimal model requirement of 10 images. These are uploaded onto a S3 bucket.
