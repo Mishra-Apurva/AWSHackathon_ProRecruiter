@@ -14,7 +14,7 @@ Select 30+ images of email examples per category to improve performance more tha
 Use AWS TextExtract to extract the email text body from images using and convert to required csv format. 5 labels { cold email, acceptance, rejection, follow up, interview acceptance } are assigned for supervised training data. The working for this is in textract.ipynb
 ### 3. ML model
 AWS Comprehend CustomClassifier in multiclass mode labels emails as one of 5 classes. 10% of data is used for testing, which results in 85% model accuracy. The code for our model is in ourCustomClassifier.
-![alt text](![image](https://user-images.githubusercontent.com/99139582/224536723-e8b85a65-48b0-47ab-ba33-73c41c080953.png))
+[image](https://user-images.githubusercontent.com/99139582/224536723-e8b85a65-48b0-47ab-ba33-73c41c080953.png)
 ### 4. Email Notification (Amazon SNS - Simple Notification Service)
 We deploy a AWS Lambda function that is triggered by SNS's email notifications. This function makes an API call to our custom classifier to classify the email text and add a label/tag that helps email services such as OutLook to redirect emails to appropriate folders. The code for the AWS Lambda function is in classifyEmailsAPI.py
 ![image](https://user-images.githubusercontent.com/99139582/224537444-78939d73-5928-446c-a5ca-5ca31c83794e.png)
