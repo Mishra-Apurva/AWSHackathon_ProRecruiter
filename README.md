@@ -26,6 +26,7 @@ We deploy a AWS Lambda function that is triggered by SNS's email notifications. 
 ## Future Works 
 ### Technical Improvements 
 - Integrate with Amazon SES or WorkMail to generalise across email clients (constraint for setup during short hackathon duration) 
+- ourCustomClassifierModel.ipnyb is currently incomplete, because of limited policy access. The model was run and integrated with email with Amazon CLI.
 - Allow client for customisation of categories 
 ### Wider Industry Application 
 - Students: As individuals transitioning into the workforce, organizing professional and academic emails based on context provide clarity and categorization for productivity. 
